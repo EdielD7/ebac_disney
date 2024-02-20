@@ -1,6 +1,7 @@
 @use 'variaveis';
-@use 'hero';
 @use 'reset';
+@use 'hero';
+@use 'shows';
 
 @font-face {
     font-family: Avenir;
@@ -16,7 +17,7 @@
 
 body {
     background-color: variaveis.$corDeFundo;
-    font-family: Avenir, sans-serif;
+    
 }
 
 @mixin text($fontSize: 16px) {
